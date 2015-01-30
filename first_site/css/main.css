@@ -5,11 +5,11 @@
   * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
   * Kroc Camen, and the H5BP dev community and team.
   */
-  
+
   /* ==========================================================================
   Base styles: opinionated defaults
   ========================================================================== */
-  
+
   html,
   button,
   input,
@@ -17,34 +17,34 @@
   textarea {
   color: #003258;
   }
-  
+
   body {
   font-size: 1em;
   line-height: 1.4;
   background-color:#000;
   color:#003258;
   }
-  
+
   /*
   * Remove text-shadow in selection highlight: h5bp.com/i
   * These selection declarations have to be separate.
   * Customize the background color to match your design.
   */
-  
+
   ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
   }
-  
+
   ::selection {
   background: #b3d4fc;
   text-shadow: none;
   }
-  
+
   /*
   * A better looking default horizontal rule
   */
-  
+
   hr {
   display: block;
   height: 1px;
@@ -53,50 +53,50 @@
   margin: 1em 0;
   padding: 0;
   }
-  
+
   /*
   * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
   */
-  
+
   img {
   vertical-align: middle;
   }
-  
+
   /*
   * Remove default fieldset styles.
   */
-  
+
   fieldset {
   border: 0;
   margin: 0;
   padding: 0;
   }
-  
+
   /*
   * Allow only vertical resizing of textareas.
   */
-  
+
   textarea {
   resize: vertical;
   }
-  
+
   /* ==========================================================================
   Chrome Frame prompt
   ========================================================================== */
-  
+
   .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
   }
-  
+
   /* ==========================================================================
   Author's custom styles
   ========================================================================== */
-  
+
   .visible-xs{display:none;}
-  
+
   #container {
   background-color:#fff;
   max-width:960px;
@@ -105,12 +105,12 @@
   font-size:0.95em;
   width:960px;
   }
-  
+
   header {
   background:url(../img/header_lrg.jpg) 0 0 no-repeat;
   width:960px;
   height:139px;}
-  
+
   h2 {
   font-size:1.1em;
   font-weight:normal;
@@ -121,41 +121,41 @@
   line-height:24px;
   text-shadow: 1px 1px 1px rgba(0,0,0, 0.4);
   filter: dropshadow(color=#333333, offx=1, offy=1);
-  
-  }	
-  
+
+  }
+
   #left h2 div {
   background:url(../img/2.png) center center no-repeat;
   background-color:#f8ad40;
   -webkit-border-radius: 3px;
-  border-radius: 3px; 
+  border-radius: 3px;
   -webkit-box-shadow: inset -1px -1px 1px 1px rgba(0, 0, 0, 0.3);
-  box-shadow: inset -1px -1px 1px 1px rgba(0, 0, 0, 0.3); 
+  box-shadow: inset -1px -1px 1px 1px rgba(0, 0, 0, 0.3);
   border:none;
   width:21px;
   height:20px;
   padding:0px;
   float:left;margin-right:0.8em;
   }
-  
+
   nav li {
   float:left;
   padding-top:0.5em;
   padding-bottom:0.6em;}
   nav li a {text-decoration:none;}
-  
+
   a, a:visited {
   color:#003258;
   }
-  
+
   a:hover{
   text-decoration:underline;
   }
-  
+
   nav {
   float:left;
   width:100%;
-  background-color:#eee; 
+  background-color:#eee;
   border-top:1px solid #d5d5d5;
   border-bottom:1px solid #d5d5d5;
   border-right:1px solid #ffffff;
@@ -168,34 +168,34 @@
   margin:0px;
   height:2.1em;
   }
-  
+
   nav li a {
   padding:10px 20px 10px;
   opacity:0.8;
   }
-  
+
   nav li.selected {font-weight:bold;}
-  
+
   nav li+li a {
   padding-left:20px;}
-  
+
   nav ul{
   padding-left:2.5%;
   }
-  
-  
-  #search{  
+
+
+  #search{
   color:#ccc;
   background-color:#000;
   -webkit-border-radius: 0px 0px 15px 0px;
-  border-radius: 0px 0px 15px 0px; 
+  border-radius: 0px 0px 15px 0px;
   height:267px;
   }
-  
+
   form{
-  width:100%;	
+  width:100%;
   }
-  
+
   select{
   width:100%;
   color:#666;
@@ -205,11 +205,11 @@
   border-radius: 0px;
   border: 1px solid #ccc;
   }
-  
+
   #left #join{
   color:#fff;
   -webkit-border-radius: 0px 15px 15px 0px;
-  border-radius: 0px 15px 15px 0px; 
+  border-radius: 0px 15px 15px 0px;
   background-color:#f8ad40;
   paddin-bottom:0;
   fontisize:1em;
@@ -220,49 +220,49 @@
   text-shadow: 1px 1px 1px rgba(0,0,0, 0.3);
   height:266px;
   }
-  
+
   #join img{
   width:100%;
   height:auto;}
-  
+
   #join h2{
   border-bottom:1px solid #fff;
   }
-  
+
   #join h2 div{
   background-image:url(../img/1.png);
   background-color:#fff;
   }
-  
+
   #join p{
   font-size:1.1em;margin-top:0px;
   }
-  
+
   #left #newsletter{
   color:#fff;
   -webkit-border-radius: 0px 15px 0px 0px;
-  border-radius: 0px 15px 0px 0px; 
+  border-radius: 0px 15px 0px 0px;
   background-color:#003258;
   height:143px;
   }
-  
+
   #results a {
   text-decoration:underline
   }
-  
+
   #content{
   float:left;
   background-color:#fff;
   border-left:1px solid #999;
   width:100%;
   }
-  
+
   #right {
   float:left;
   width:75%
   }
 
-  
+
   #results > div.special{
   width:33%;
   height:auto;
@@ -280,23 +280,23 @@
   -webkit-box-shadow: inset -1px -1px 5px 5px rgba(0, 0, 0, 0.2);
   box-shadow: inset -1px -1px 5px 5px rgba(0, 0, 0, 0.2);
   }
-  
+
   #results .special div{
   margin-top:175px;
-  font-size:1em; 
+  font-size:1em;
   }
-  
+
   #results .special.three div{
   margin-top:200px;
   }
-  
+
   #results .special p{
   line-height:1.4em;
   padding:0px 15px 0px 15px;
   margin-bottom:0px;
-  margin-top:5px;	
+  margin-top:5px;
   }
-  
+
   #results .special.two{
   background-image:url(../img/food3.jpg);
   width:33%;
@@ -304,14 +304,14 @@
   border-left:1px solid #fff;
   border-right:1px solid #fff;
   }
-  
+
   #results .special.two a{color:#fff;}
-  
+
   #results .special.three{
   background-image:url(../img/food4.jpg);
   background-color:#cfc87d;
   }
-  
+
   input[type="button"] {
   margin-top:9%;
   margin-left:22%;
@@ -322,30 +322,30 @@
   background:url(../img/4.png) 85% 50% no-repeat;
   background-color:#f8ad40;
   -webkit-border-radius: 3px;
-  border-radius: 3px; 
+  border-radius: 3px;
   text-shadow: 1px 1px 1px rgba(0,0,0, 0.4);
   -webkit-box-shadow: inset -1px -1px 2px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: inset -1px -1px 2px 2px rgba(0, 0, 0, 0.3); 
+  box-shadow: inset -1px -1px 2px 2px rgba(0, 0, 0, 0.3);
   border:none;
   }
-  
+
   input[type="button"]:hover{
-  color:#fff; 
+  color:#fff;
   text-shadow: 1px 1px 1px rgba(0,0,0, 0.8);
   }
-  
+
   input[type="text"] {
   width:97%;
   color:#666;
   margin-top:8px;
   margin-bottom:8px;
   }
-  
+
   #left{
   width:25%;
   float:left;
   }
-  
+
   #left > div{padding:0 10%;
   padding-top:1em;
   padding-bottom:1.8em;
@@ -357,25 +357,27 @@
   box-shadow: inset -1px -1px 5px 5px rgba(0, 0, 0, 0.15);
   min-width:180px;
   }
-  
+
   #mainImage {
   width:100%;
   background:url(../img/food.jpg) 0 0 no-repeat;
   width:100%;
   height:505px;
   }
+
   .imageShadow{
   -webkit-box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
-  box-shadow: inset 0px 5px 5px 3px rgba(0, 0, 0, 0.15);padding:0;	
+  box-shadow: inset 0px 5px 5px 3px rgba(0, 0, 0, 0.15);padding:0;
   }
-  
-  footer a{ 
+
+  footer a{
   color:#999;
   font-size:0.85em;
   padding-top:1em;
   padding-bottom:1em;
-  padding-right:20px;}
-  
+  padding-right:20px;
+  }
+
   footer {
   width:100%;
   float:left;
@@ -386,47 +388,43 @@
   padding-right:10px;
   text-align:right;
   }
-  
+
   #results {
   float:left;
   width:100%;
   overflow:auto;
-  font-size:0.9em;  
+  font-size:0.9em;
   }
-  
-  
+
+
   #results > div {
   width:47.5%;
   float:left;
   padding-left:2.5%
   }
-  
+
   h3 {
   margin-bottom:0.3em;
   font-size:1.1em;
   color:#4380c5;
   }
-  
-  p a {
-  text-decoration:underline;
-  }
 
   footer p a{color:#fff}
-  
+
   .intro{
   font-weight:bold;
   }
-  
+
   #charities{
   width:100%;
   float:left;
   }
-  
+
   #charities li{
   width:50%;
   float:left;
   }
-   
+
   div#bodyContent{
   width:89%;
   padding:4%;
@@ -434,128 +432,97 @@
   height:auto;
   font-size:1.1em
   }
-  
+
   .source{
   float:right;
   font-size:0.8em;
   }
-  
+
   h4{
   font-size:1.3em;
   color:#4380c5;
   margin:0
   }
-  
-  
+
+
 @media only screen and (max-width: 768px) {
-  
+
   #container {
   width:100%;
   }
-  
-  #results {
-  height:432px;	
-  }
-  
-  #results.coverMap{
-  height:730px;
-  }
-  
+
   #bodyContent {
   font-size:1.05em;}
-  
-  header{
+
+  header {
   width:100%;
   background-image:none;
   height:auto;
   }
-  header img{
-  width:100%;
-  }
-  
+  header img { width:100%;}
+
   #left{
    width:192px;
   }
-  
+
   #left > div{
-  min-width:152px; 
-  padding-left:0.8em; 
+  min-width:152px;
+  padding-left:0.8em;
   padding-right:0.8em;
   font-size:0.95em
   }
-  
+
   #right {width:74.3%}
-  
+
   nav ul {
   padding-left:0px;font-size:1em;}
-  
+
   #results .special div{
   margin-top:160px;
   }
-  
+
   #mainImage{
   background-size:100%;
   height:430px;
   }
-  
+
   #join p{
   font-size:1em;}
-  
+
   #results .special.three {
   width:32.5%}
-  
+
   #results .special.three div {
   font-size:1.1em;
   margin-top: 175px;
   }
-  
-  #search{
-  height:254px;
-  }
-  
-  #left #join{
-  height:237px;
-  }
-  
-  #left #newsletter {
-  height:138px;
-  }
+
+  #search{height:254px;}
+
+  #left #join{height:237px;}
+
+  #left #newsletter {height:138px;}
 
   #left #newsletter h2{font-size:1em;}
-  
-  #results >div.special {
-  height:298px;
-  }
-  
+
+  #results >div.special {height:298px;}
+
   footer a{padding-right:20px}
-  
+
 }
-  
+
 @media only screen and (max-width: 721px) {
- 
+
   .hidden-xs{display:none;}
   .visible-xs{display:block}
-  #search, #left #join, #left #newsletter{
-  height:auto;}
-  #results {
-  height:auto;		
-  }
-  
-  #joinPage #left, #terms #left, #restaurantsPage #left{display:none;}
-  #results #charities{padding-left:15px;}
-  #joinPage h4{font-size:1.3em;} 
-  #results > div {width:100%;font-size:1.2em;}
+  #search, #left #join, #left #newsletter{height:auto;}
   #left{display:none;}
   #home #left{display:block;}
   #charities {padding-left:5%;}
   #charities li {width:47%;margin-right:6%}
-  
   #charities li:nth-child(even) {width:47%;margin-right:0%}
-  
-  #search2, #join2, #mainImage, .special, header img, nav ul li:last-child{display:none;}
+  #mainImage, .special, nav ul li:last-child{display:none;}
   #left, #right{width:100%;}
-	
-  
   nav{font-size:1em;height:2.2em;}
   nav ul li{padding-top:6px}
   nav ul li a{padding:6px 12px 8px 12px}
@@ -563,15 +530,15 @@
   #left > div {font-size:1.2em;padding-left:1.5em; padding-right:1.5em;}
   select{margin-top:2px;margin-bottom:12px;}
 }
-  
+
   /* ==========================================================================
   Helper classes
   ========================================================================== */
-  
+
   /*
   * Image replacement
   */
-  
+
   .ir {
   background-color: transparent;
   border: 0;
@@ -579,27 +546,27 @@
   /* IE 6/7 fallback */
   *text-indent: -9999px;
   }
-  
+
   .ir:before {
   content: "";
   display: block;
   width: 0;
   height: 150%;
   }
-  
+
   /*
   * Hide from both screenreaders and browsers: h5bp.com/u
   */
-  
+
   .hidden {
   display: none !important;
   visibility: hidden;
   }
-  
+
   /*
   * Hide only visually, but have it available for screenreaders: h5bp.com/v
   */
-  
+
   .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -610,12 +577,12 @@
   position: absolute;
   width: 1px;
   }
-  
+
   /*
   * Extends the .visuallyhidden class to allow the element to be focusable
   * when navigated to via the keyboard: h5bp.com/p
   */
-  
+
   .visuallyhidden.focusable:active,
   .visuallyhidden.focusable:focus {
   clip: auto;
@@ -625,15 +592,15 @@
   position: static;
   width: auto;
   }
-  
+
   /*
   * Hide visually and from screenreaders, but maintain layout
   */
-  
+
   .invisible {
   visibility: hidden;
   }
-  
+
   /*
   * Clearfix: contain floats
   *
@@ -645,48 +612,48 @@
   * 2. The use of `table` rather than `block` is only necessary if using
   *    `:before` to contain the top-margins of child elements.
   */
-  
+
   .clearfix:before,
   .clearfix:after {
   content: " "; /* 1 */
   display: table; /* 2 */
   }
-  
+
   .clearfix:after {
   clear: both;
   }
-  
+
   /*
   * For IE 6/7 only
   * Include this rule to trigger hasLayout and contain floats.
   */
-  
+
   .clearfix {
   *zoom: 1;
   }
-  
+
   /* ==========================================================================
   EXAMPLE Media Queries for Responsive Design.
   Theses examples override the primary ('mobile first') styles.
   Modify as content requires.
   ========================================================================== */
-  
+
   @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
   }
-  
+
   @media print,
   (-o-min-device-pixel-ratio: 5/4),
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
   }
-  
+
   /* ==========================================================================
   Print styles.
   Inlined to avoid required HTTP connection: h5bp.com/r
   ========================================================================== */
-  
+
   @media print {
   * {
   background: transparent !important;
@@ -694,60 +661,60 @@
   box-shadow: none !important;
   text-shadow: none !important;
   }
-  
+
   a,
   a:visited {
   text-decoration: underline;
   }
-  
+
   a[href]:after {
   content: " (" attr(href) ")";
   }
-  
+
   abbr[title]:after {
   content: " (" attr(title) ")";
   }
-  
+
   /*
   * Don't show links for images, or javascript/internal links
   */
-  
+
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
   content: "";
   }
-  
+
   pre,
   blockquote {
   border: 1px solid #999;
   page-break-inside: avoid;
   }
-  
+
   thead {
   display: table-header-group; /* h5bp.com/t */
   }
-  
+
   tr,
   img {
   page-break-inside: avoid;
   }
-  
+
   img {
   max-width: 100% !important;
   }
-  
+
   @page {
   margin: 0.5cm;
   }
-  
+
   p,
   h2,
   h3 {
   orphans: 3;
   widows: 3;
   }
-  
+
   h2,
   h3 {
   page-break-after: avoid;
