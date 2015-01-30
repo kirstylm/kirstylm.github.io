@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">>
+        <title>Club Foodies</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    <body>
+    	<div id="container">
+            <header>
+            	<img src="img/header_lrg.jpg" class="hidden-xs">
+                <img src="img/header_sml.jpg" class="visible-xs">   
+            </header>
+            
+            <nav>
+              <ul>
+                    <li><a href="index.html">Home</a>|</li>
+                    <li><a href="restaurants.html">Restaurants</a>|</li>
+                    <li class="selected"><a href="join.html">Join</a>|</li>
+                    <li><a href="terms.html">Terms and Condition</a></li>
+                </ul>
+            </nav>
+            
+            <div id="content">
+                <div id="left">
+                    <div id="search">
+                        <h2><div></div>Find a restaurant</h2>
+                        <form name="restaurants">
+                            <label>Cuisine</label>
+                            <select name="food" id="food">
+                              <option value="Anyfood">All</option>
+                              <option value="Indian">Indian</option>
+                              <option value="Mediterranean">Mediterranean</option>
+                              <option value="European">European</option>
+                              <option value="Other Asian">Other Asian</option>
+                              <option value="French">French</option>
+                              <option value="Italian">Italian</option>
+                              <option value="Modern New Zealand">Modern New Zealand</option>
+                            </select>
+                             <label>Category</label>
+                             <select name="section" id="section">
+                             <option value="1">All</option>
+                              <option value="2">Gold Card - Fine and Contemporary Dining</option>
+                              <option value="3">Cafe and Bistro Dining</option>
+                            </select>
+                            <label>Offer</label>
+                            <select name="deal" id="deal">
+                            <option value="Anydeal">All</option>
+                              <option value="50% off">50% off</option>
+                              <option value="2 for 1">2 for 1</option>
+                            </select>
+                            
+                            <input type="button" onClick="findRestaurants()" value="Search"> 
+                    	</form>
+                    </div>
+                    
+                    <div id="join">
+                      <h2><div></div>How to join</h2>
+                        <p><a href="join.html">Find out how</a> to save at Wellington's top restaurants</p>
+                        <img src="img/foodie.jpg" width="264" height="170" alt="foodie card"> 
+                    </div>
+                    
+                    <div id="newsletter">
+                      <h2><div></div>Join our mailing list</h2>
+                      <form name="restaurants">
+                        <input name="Email" type="text" value="Email address">
+                        <input type="button" onClick="confirm()" value="Add me">
+                      </form>
+                    </div>  
+                </div>
+                   
+                <div id="right">   
+                	<div id="bodyContent">
+            	<h4>How to buy an Entertainment<sup>TM</sup> Book</h4>
+             <p class="intro">All you need to be able to take advantage of the great deals at various restaurants in your city, is to support you favourity charity by buying an Entertainment Book.</p>
+                <p>The new Entertainment™ Books are better than ever and are packed with thousands of valuable offers from popular restaurants, attractions, accommodation and more!  Purchase a new Book and you will also  be helping community organisations with their fundraising, with 20% of the proceeds going directly towards their important causes.  </p>
+                <p>Entertainment™ Books are distributed exclusively through a number of fund-raising and community groups in your local area such as:</p>
+                <ul id="charities">
+                   <li> Charities</li>
+                    <li>Schools</li>
+                    <li>Hospitals</li>
+                    <li>Corporate Social Clubs</li>
+                    <li>Rotary Clubs and Lions Clubs</li>
+                    <li>Sporting Clubs</li>
+                
+                   <li> Day Care Centres and Kindergartens</li>
+                   <li> Religious Groups</li>
+                   <li> Research Foundations</li>
+                   <li> Scout and Girl Guide Groups</li>
+                   <li> Surf Lifesaving Clubs</li>
+                   <li> Local Community Services Groups</li>
+                </ul>
+                <p>Choose an organisation in your local area that you would like to support… your favourite charity, sporting club, the local school or hospital and give them a call or visit their website.</p>
+                <p>Many organisations are already taking orders for the new 2013|2014 Entertainment™ Books that will be released from April 2013 onwards so get in touch with your favourite fundraising organisation now to reserve your new Entertainment™ Book.</p>
+                <p class="source">Source: <a href="http://www.entertainmentbook.co.nz/about/how-to-buy"><i>http://www.entertainmentbook.co.nz/about/how-to-buy</i></a></p>
+            	</div>
+            </div>
+                </div>
+                
+            </div>
+            
+            <footer><a href="mailto:ContactUs@subrosadesigns.com">Contact us</a></footer>
+            
+    	</div>
+    </body>
+</html>
