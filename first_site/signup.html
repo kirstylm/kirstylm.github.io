@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>Club Foodies</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="javascript/sliding.form.js"></script>
+    </head>
+
+    <body>
+    	<div id="container">
+            <header>
+            	<img src="img/header_lrg.jpg" class="hidden-xs">
+                <img src="img/header_sml.jpg" class="visible-xs">
+            </header>
+
+            <nav>
+              <ul>
+                    <li><a href="index.html">Home</a>|</li>
+                    <li><a href="restaurants.html">Restaurants</a>|</li>
+                    <li class="selected"><a href="join.html">Join</a>|</li>
+                    <li><a href="terms.html">Terms and Conditions</a></li>
+                </ul>
+            </nav>
+
+            <div id="content">
+              <div id="left">
+                <div id="search">
+                  <h2><div></div>Find a restaurant</h2>
+                  <form name="restaurants">
+                      <label>Cuisine</label>
+                      <select name="food" id="food">
+                        <option value="Anyfood">All</option>
+                        <option value="Indian">Indian</option>
+                        <option value="Mediterranean">Mediterranean</option>
+                        <option value="European">European</option>
+                        <option value="Other Asian">Other Asian</option>
+                        <option value="French">French</option>
+                        <option value="Italian">Italian</option>
+                        <option value="Modern New Zealand">Modern New Zealand</option>
+                      </select>
+                       <label>Category</label>
+                       <select name="section" id="section">
+                       <option value="1">All</option>
+                        <option value="2">Gold Card - Fine and Contemporary Dining</option>
+                        <option value="3">Cafe and Bistro Dining</option>
+                      </select>
+                      <label>Offer</label>
+                      <select name="deal" id="deal">
+                      <option value="Anydeal">All</option>
+                        <option value="50% off">50% off</option>
+                        <option value="2 for 1">2 for 1</option>
+                      </select>
+
+                      <input type="button" onClick="findRestaurants()" value="Search">
+                  	</form>
+                  </div>
+
+                  <div id="join">
+                    <h2><div></div>How to join</h2>
+                      <p><a href="join.html">Find out how</a> to save at Wellington's top restaurants</p>
+                      <img src="img/foodie.jpg" width="264" height="170" alt="foodie card">
+                  </div>
+
+                  <div id="newsletter">
+                    <h2><div></div>Join our mailing list</h2>
+                    <form name="restaurants">
+                      <input name="email" type="email" value="Email address">
+                      <input type="button" onClick="confirm()" value="Add me">
+                    </form>
+                  </div>
+                </div>
+
+                <div id="right">
+                  <div id="bodyContent">
+                    <h4>Sign up to our newsletter</h4>
+
+                    <p class="reference">
+                      Original code from: <a href="http://tympanus.net/codrops/2010/06/07/fancy-sliding-form-with-jquery/">Codrops</a>
+                    </p>
+
+                    <div id="wrapper">
+                      <div id="steps">
+                        <form id="formElem" name="formElem" action="" method="post">
+                          <fieldset class="step">
+                            <legend>Personal Details</legend>
+                              <p>
+                                  <label for="name">Full Name</label>
+                                  <input id="name" name="name" type="text" AUTOCOMPLETE=OFF />
+                              </p>
+                              <p>
+                                  <label for="email">Email</label>
+                                  <input id="email" name="email" placeholder="info@tympanus.net" type="email" AUTOCOMPLETE=OFF />
+                              </p>
+                              <p>
+                                  <label for="confirmemail">Email</label>
+                                  <input id="confirmemail" name="confirmemail" placeholder="info@tympanus.net" type="email" AUTOCOMPLETE=OFF />
+                              </p>
+                          </fieldset>
+
+
+                          <fieldset class="step">
+                            <legend>Preferences</legend>
+                            <p>
+                                <label for="newsletter">Newsletter</label>
+                                <select id="newsletter" name="newsletter">
+                                    <option value="Weekly">Weekly</option>
+                                    <option value="Monthly">Monthly</option>
+                                    <option value="Never">Never</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label for="updates">Updates</label>
+                                <select id="updates" name="updates">
+                                    <option value="1" selected>New restaurants</option>
+                                    <option value="2">New entertainment offers</option>
+                                    <option value="3" >Both/option>
+                                    <option value="0">Don't send updates</option>
+                                </select>
+                            </p>
+                            <p>
+                              <label for="tagname">Newsletter Tag</label>
+                              <input id="tagname" name="tagname" type="text" AUTOCOMPLETE=OFF />
+                            </p>
+                          </fieldset>
+                          <fieldset class="step">
+                            <legend>Confirm</legend>
+                            <p>
+                              Everything in the form was correctly filled
+                              if all the steps have a green checkmark icon.
+                              A red checkmark icon indicates that some field
+                              is missing or filled out with invalid data.
+                            </p>
+                            <p class="submit">
+                              <button id="registerButton" type="submit">Register</button>
+                            </p>
+                          </fieldset>
+                        </form>
+                      </div>
+
+                      <div id="form_navigation" style="display:none;">
+                        <ul>
+                          <li class="selected">
+                              <a href="#">Personal details</a>
+                          </li>
+                          <li>
+                              <a href="#">Preferences</a>
+                          </li>
+                          <li>
+                              <a href="#">Confirm</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
+
+                </div>
+              </div>
+            </div>
+
+            <footer><a href="mailto:ContactUs@subrosadesigns.com">Contact us</a></footer>
+
+    	</div>
+    </body>
+</html>
